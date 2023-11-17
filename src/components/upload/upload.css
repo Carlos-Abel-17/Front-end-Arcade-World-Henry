@@ -1,0 +1,25 @@
+.file-select {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 2rem;
+    padding: 0.6rem;
+  }
+
+.file-select::before {
+    background-color: #fff;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+    color: rgba(0, 0, 0, 0.50);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: 'Select your image'; /* texto por defecto */
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .file-select:hover{
+    cursor: pointer;
+  }

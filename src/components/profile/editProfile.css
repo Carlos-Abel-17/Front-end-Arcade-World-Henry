@@ -1,0 +1,26 @@
+.file-selectProfile {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  margin-top: 0.8rem;
+  padding: 0.6rem;
+}
+
+.file-selectProfile::before {
+  background-color: #fff;
+  border: 0.5px solid rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "Select your new profile image"; /* texto por defecto */
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.file-selectProfile:hover {
+  cursor: pointer;
+}

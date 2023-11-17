@@ -1,0 +1,69 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-block-start: 1.5rem;
+  inline-size: 38rem;
+  block-size: 14rem;
+  border-radius: 0.5rem;
+  background: linear-gradient(45deg, #0066ff, #d0ff00);
+  
+
+}
+.imgH {
+  position: relative;
+  inline-size: 25rem; 
+  block-size: 13.12rem; 
+  margin: 0.5rem;
+  
+}
+.name {
+  position: absolute;
+  top: 50%; 
+  left: 40%; 
+  transform: translate(-60%, -25%); 
+  z-index: 1; 
+  color: rgb(240, 41, 41); 
+  padding: 10px; 
+  filter: brightness(1.1) contrast(1.8);
+  text-shadow: 7px 7px 5px rgba(68, 2, 155, 0.8);
+}
+.imgH img {
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  vertical-align: middle;
+  z-index: 0;
+}
+
+.hCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  inline-size: 12rem; 
+  block-size: 13.12rem; 
+  padding-block-start: 0.5rem;
+  z-index: 1;
+  
+}
+.hCont h3 {
+  color: rgb(2, 3, 70);
+  font-size: 20px;
+  
+}
+
+.hCont h4 {
+ border-radius: 50%;
+ margin-top: 0.5rem;
+ line-height: 1.5;
+ color: rgb(82, 2, 2);
+}
+.platforms {
+  inline-size: 11.7rem; 
+  font-size: 18px;
+  font-weight: 500;
+  overflow: hidden; 
+  text-overflow: ellipsis;
+  
+}
